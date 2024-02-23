@@ -1,0 +1,52 @@
+.modal{
+    position: absolute;
+    top:  50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    width:500px;
+    height: 300px;
+    padding: 2rem;
+    background-color: #242A39;
+    border-radius: 20px;
+}
+
+.modal p{
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    line-height: 30px;
+}
+#emoji{
+    font-size: 2.8rem;
+    text-align: center;
+    display: block;
+}
+
+.modal  .close-btn{
+    padding: 0.8rem 1rem;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: black;
+    background-color: #ffe608;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.modal .cross-btn{
+    position: absolute;
+    right:20px;
+    top:15px;
+    border-radius:100%;
+    border: none;
+    padding: 2px 7px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: #ffe608;
+    color: black;
+}
